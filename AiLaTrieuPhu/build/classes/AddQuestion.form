@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[400, 360]"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="lbLevel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbQuestion" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbAnswerA" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbAnswerB" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbAnswerC" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbAnswerD" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="lbAnswerTrue" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="TextLevel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="TextQuestion" alignment="0" max="32767" attributes="0"/>
+                  <Component id="TextAnswerA" alignment="0" max="32767" attributes="0"/>
+                  <Component id="TextAnswerB" alignment="0" max="32767" attributes="0"/>
+                  <Component id="TextAnswerC" alignment="0" max="32767" attributes="0"/>
+                  <Component id="TextAnswerD" alignment="0" max="32767" attributes="0"/>
+                  <Component id="TextAnswerTrue" alignment="0" pref="180" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="ButtonAdd" alignment="1" max="32767" attributes="0"/>
+                  <Component id="ButtonClear" alignment="1" max="32767" attributes="0"/>
+                  <Component id="ButtonCancel" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="161" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="176" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="14" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbLevel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TextLevel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ButtonAdd" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbQuestion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TextQuestion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ButtonClear" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbAnswerA" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TextAnswerA" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ButtonCancel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbAnswerB" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TextAnswerB" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbAnswerC" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TextAnswerC" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbAnswerD" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TextAnswerD" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lbAnswerTrue" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="TextAnswerTrue" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#xea;m c&#xe2;u h&#x1ecf;i"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbLevel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#x1ea5;p &#x111;&#x1ed9;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbQuestion">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="C&#xe2;u h&#x1ecf;i"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbAnswerA">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;&#xe1;p &#xe1;n A"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbAnswerB">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;&#xe1;p &#xe1;n B"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbAnswerC">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;&#xe1;p &#xe1;n C"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbAnswerD">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;&#xe1;p &#xe1;n D"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="lbAnswerTrue">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x110;&#xe1;p &#xe1;n &#x111;&#xfa;ng"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TextLevel">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TextQuestion">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="TextQuestionActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="TextAnswerA">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TextAnswerB">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TextAnswerC">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TextAnswerD">
+    </Component>
+    <Component class="javax.swing.JTextField" name="TextAnswerTrue">
+    </Component>
+    <Component class="javax.swing.JButton" name="ButtonAdd">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Th&#xea;m"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonAddActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ButtonClear">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="L&#xe0;m l&#x1ea1;i"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonClearActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ButtonCancel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="H&#x1ee7;y"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ButtonCancelActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
